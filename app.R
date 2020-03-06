@@ -25,6 +25,7 @@ ui <- fluidPage(
         min = "2010-01-01", max = "2020-03-01"
       )
     ),
+    column(12, tags$a("Get the code and data", href = "https://github.com/vedhav/biosimilar_plot")),
     column(12, plotlyOutput("plot", height = "700px"))
   )
 )
